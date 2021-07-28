@@ -6,32 +6,7 @@ The input file is admittedly not as sophisticated as pulling results from MTG Ar
 
 The input file follows the following format (csv) for each draft entry:
 
-KHM	7	2	b	G	r	U	w	p
-1	giant's amulet							
-1	depart the realm							
-1	fynn the fangbearer							
-1	sculptor of winter							
-3	mistwalker							
-1	saw it coming							
-2	demon bolt							
-1	glittering frost							
-1	sarulf realm eater							
-1	niko aris							
-1	behold the multiverse							
-1	inga rune-eyes							
-2	sarulf's packmate							
-1	struggle for skemfar							
-1	berg strider							
-1	graven lore							
-2	ravenous lindwurm							
-5	island							
-2	mountain							
-6	forest							
-1	gates of istfell							
-1	glacial floodplain							
-1	ice tunnel							
-1	sulfurous mire							
-1	artic treeline
+![image](https://user-images.githubusercontent.com/20996215/127382097-bab2dee5-7f4a-4082-8b3e-4c1bb63697f6.png)
 
 The first line contains: 3-letter set code, number of wins, number of losses, colors, premier or not
 
@@ -40,8 +15,6 @@ The colors are definitely a judgement call and sometimes can be much more straig
 Following the first descriptor line, the cards are listed, preceded by their count. Note that commas are left out of names as to not disrupt the csv format. Also, some decks/sets depend on sideboard cards and when that is relevant those cards are listed in the same manner, except with a lowercase "s" as the count. Duplicate sideboard cards are input using repeat "s"-count entries.
 
 Each individual draft is stored as a draft object with the attributes made up of the input information.
-
-![image](https://user-images.githubusercontent.com/20996215/127382097-bab2dee5-7f4a-4082-8b3e-4c1bb63697f6.png)
 
 One of the output files produced is a pdf where each row represents a draft set (gameplay variant, indicated with a 3-letter code) and where the left column is a histogram for that draft set with bins for the 10 possible outcomes (0-3 up to 7-0). Draft count and win rate by draft set is also posted in the left column in red font. The right column displays a time series of wins verses draft index (chronological order, not to scale). A linear trendline is also depicted with its corresponding equation in red for each time series. Given enough data points, the trendline can indicate the win rate trajectory of a given set (decreasing, neutral, or increasing).
 
