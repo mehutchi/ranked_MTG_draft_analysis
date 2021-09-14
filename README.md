@@ -28,7 +28,7 @@ One interesting observation from the time series in this set is that the win rat
 
 The above image is the unified histogram of the outcomes across all draft sets, accounting every draft event. It has largely normal Gaussian characteristics, but there is an inversion of expected bin height for the 6-3 and 7-2 outcomes. I estimate this is because of the 7-win-ceiling and the 3-loss-floor. Any start outside of an immediate 0-3 has the possibility of reaching a 7-win record. On the ends of the histrogram, there is only one path to obtaining an 0-3 and also only one path to a 7-0. However, these bin heights are nowhere near the same, because 7 wins is much harder to obtain than 3 losses. To explore the disparity between expected and actual bin heights of the histogram, I made a short brute-force code to determine the number of total outcomes (win/loss sequences, ex. [w, l, w, l, w, w, l] is a sample 4-3 outcome). This code randomly builds outcomes according to the 7-win-ceiling and the 3-loss-floor rules, saving undiscovered outcomes to a list. After running the code a few times with different iteration counts (all the way up to 100,000 iterations) and the code converged at 120 total outcomes after about 2000 iterations. Here is the code:
 
-import random
+```import random
 
 from collections import Counter
 
@@ -39,9 +39,7 @@ loss = 0
 def brute_force(count):
 
     o1 = 0 #0-3
-    
     o2 = 0 #1-3
-    
     o3 = 0 #2-3
     o4 = 0 #3-3
     o5 = 0 #4-3
@@ -102,7 +100,7 @@ def brute_force(count):
     
     return holding_list
         
-all_outcomes = brute_force(100000)
+all_outcomes = brute_force(100000)```
 
 (End of code) Here is the outcomes broken down by each possible record as reported by the code:
 
@@ -229,4 +227,4 @@ drafts = 1, games = 8, wins = 5, losses = 3, win % = 62
 UW
 drafts = 5, games = 34, wins = 19, losses = 15, win % = 56
 
-(End of output) The most drafted cards are listed in addition to win rate broken down by the five colors, then the ten color pairs. Especially for the color pairs, it is important to take into account the number of drafts/games played. For example, BU has a winrate of 67% which is quite good, but that is just from one draft. If we look at the data for all drafts that had black, the winrate was only 35%. KHM is a set where the community concensus was that black was a drastically weak color. This bears out in my data, and also helped me realize that I needed to try to avoid black when drafting. Here I have a high win rate with GW, but only across two drafts. This could mean that the color pair is strong, or it could just be two drafts carried by individually powerful card inclusions. With 10 drafts played, it seems safe to conlcude that GU is one of my best (if not my best) color pair. The GU archetype was notable in KHM because of how easy it was to "splash" (play a few strong cards of other colors) without a major concistancy hit. However, my winrate when splashing (in any combination) in KHM was only 58% across the board. 
+(End of output) The most drafted cards are listed in addition to win rate broken down by the five colors, then the ten color pairs. Especially for the color pairs, it is important to take into account the number of drafts/games played. For example, BU has a winrate of 67% which is quite good, but that is just from one draft. If we look at the data for all drafts that had black, the winrate was only 35%. KHM is a set where the community concensus was that black was a drastically weak color. This bears out in my data, and also helped me realize that I needed to try to avoid black when drafting. Here I have a high win rate with GW, but only across two drafts. This could mean that the color pair is strong, or it could just be two drafts carried by individually powerful card inclusions. With 10 drafts played, it seems safe to conlcude that GU is one of my best (if not my best) color pair. The GU archetype was notable in KHM because of how easy it was to "splash" (play a few strong cards of other colors) without a major concistancy hit. However, my win rate when splashing (in any combination) in KHM was only 58% across the board. 
