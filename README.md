@@ -102,14 +102,23 @@ all_outcomes = brute_force(100000)
 (End of code) Here is the outcomes broken down by each possible record as reported by the code:
 
 outcomes by record: 0-3 has 1
+
 outcomes by record: 1-3 has 3
+
 outcomes by record: 2-3 has 6
+
 outcomes by record: 3-3 has 10
+
 outcomes by record: 4-3 has 15
+
 outcomes by record: 5-3 has 21
+
 outcomes by record: 6-3 has 28
+
 outcomes by record: 7-2 has 28
+
 outcomes by record: 7-1 has 7
+
 outcomes by record: 7-0 has 1
 
 It is important to recognize that we should not expect the bins of unified histogram to match these raw outcome counts. The outcomes do not have equal weights because of the difficulty of winning as opposed to losing. That being said, we can see that 6-3 and 7-2 both have 28 distinct outcomes. The relatively high outcome count for these two records helps explain the high bins we see in the unified histogram, but it does not explain the fact that the 7-2 bin is larger than the 6-3 bin. We would expect their bin heights to be inverted since the more win-dense outcomes of the 7-2 record should be harder to obtain. The only explanation I can think of is that there must be a pschological effect when sitting at 6 wins and shooting for the 7th win. Perhaps at that point, the player's play style subconciously shifts to a more aggressive (or a more conservative) tactic when on the cusp of maxing out the wins and obtaining the larger prize payout. 
