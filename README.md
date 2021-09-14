@@ -124,26 +124,47 @@ Total games = 247, total wins = 146, total losses = 101, win % = 59.11
 Seven win drafts = 10, SWD % = 26.32
 
 Top 20 most played/drafted cards
+
 26 sarulf's packmate
+
 25 behold the multiverse
+
 21 struggle for skemfar
+
 20 mistwalker
+
 20 berg strider
+
 17 shimmerdrift vale
+
 17 demon bolt
+
 16 frost bite
+
 16 snow-covered mountain
+
 16 bound in gold
+
 15 snow-covered plains
+
 14 squash
+
 14 glittering frost
+
 13 highland forest
+
 13 bind the monster
+
 13 dwarven reinforcements
+
 13 beskir shieldmate
+
 13 sculptor of winter
+
 12 ravenous lindwurm
+
 12 gnottvold recluse
+
 
 ** Information by main (not splashed) colors for KHM **
 
