@@ -100,7 +100,8 @@ def brute_force(count):
     
     return holding_list
         
-all_outcomes = brute_force(100000)```
+all_outcomes = brute_force(100000)
+```
 
 (End of code) Here is the outcomes broken down by each possible record as reported by the code:
 
