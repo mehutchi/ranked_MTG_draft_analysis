@@ -29,15 +29,13 @@ One interesting observation from the time series in this set is that the win rat
 The above image is the unified histogram of the outcomes across all draft sets, accounting every draft event. It has largely normal Gaussian characteristics, but there is an inversion of expected bin height for the 6-3 and 7-2 outcomes. I estimate this is because of the 7-win-ceiling and the 3-loss-floor. Any start outside of an immediate 0-3 has the possibility of reaching a 7-win record. On the ends of the histrogram, there is only one path to obtaining an 0-3 and also only one path to a 7-0. However, these bin heights are nowhere near the same, because 7 wins is much harder to obtain than 3 losses. To explore the disparity between expected and actual bin heights of the histogram, I made a short brute-force code to determine the number of total outcomes (win/loss sequences, ex. [w, l, w, l, w, w, l] is a sample 4-3 outcome). This code randomly builds outcomes according to the 7-win-ceiling and the 3-loss-floor rules, saving undiscovered outcomes to a list. After running the code a few times with different iteration counts (all the way up to 100,000 iterations) and the code converged at 120 total outcomes after about 2000 iterations. Here is the code:
 
 ```import random
-
 from collections import Counter
 
-win = 7
-
-loss = 0
-
+# function to brute-force determine the number of outcomes for each record
 def brute_force(count):
-
+    ''' example outcome (w/l sequence) for 4-3 -> [w, l, w, l, w, w, l]
+    '''
+    # variables for counting the outcomes for the 10 possible records
     o1 = 0 #0-3
     o2 = 0 #1-3
     o3 = 0 #2-3
@@ -48,23 +46,31 @@ def brute_force(count):
     o8 = 0 #7-2
     o9 = 0 #7-1
     o10 = 0 #7-0
+    # list to hold each unique outcome
     holding_list = []
+    # for each i in count, create a random outcome
     for i in range(count):
+        # intialize outcome list
         rc = []
-        co = Counter(rc)
-        c1 = co["l"]
-        c2 = co["w"]
+        # co = Counter(rc)
+        # boolean to end outcome build loop
         build = True
         while build == True:
+            # generate random float between 0 and 1
             rand = random.uniform(0, 1)
+            # 50/50 chance for an "l" or a "w"
             if rand > 0.5:
                 rc.append("l")
             else:
                 rc.append("w")
+            # create a Counter object to count occurances in outcome list
             co = Counter(rc)
+            # as long as ending conditions are not yet met
             if co["l"] == 3 or co["w"] == 7:
+                # if the outcome is not yet in the holding_list
                 if rc not in holding_list:
                     holding_list.append(rc)
+                    # increment the appropriate variable
                     if co["l"] == 3 and co["w"] == 0:
                         o1 += 1
                     elif co["l"] == 3 and co["w"] == 1:
