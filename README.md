@@ -135,8 +135,9 @@ It is important to recognize that we should not expect the bins of unified histo
 
 In addition to the above plots, a detailed breakdown of each draft set is included in an output file. Below is sample output for one of the draft sets:
 
+```
 *****			               *****
-***** Draft info for KHM *****
+***** Draft info for KHM       *****
 *****			               *****
 Total number of drafts is 38
 Total games = 247, total wins = 146, total losses = 101, win % = 59.11
@@ -233,5 +234,6 @@ drafts = 1, games = 8, wins = 5, losses = 3, win % = 62
 
 UW
 drafts = 5, games = 34, wins = 19, losses = 15, win % = 56
+```
 
 (End of output) The most drafted cards are listed in addition to win rate broken down by the five colors, then the ten color pairs. Especially for the color pairs, it is important to take into account the number of drafts/games played. For example, BU has a winrate of 67% which is quite good, but that is just from one draft. If we look at the data for all drafts that had black, the winrate was only 35%. KHM is a set where the community concensus was that black was a drastically weak color. This bears out in my data, and also helped me realize that I needed to try to avoid black when drafting. Here I have a high win rate with GW, but only across two drafts. This could mean that the color pair is strong, or it could just be two drafts carried by individually powerful card inclusions. With 10 drafts played, it seems safe to conlcude that GU is one of my best (if not my best) color pair. The GU archetype was notable in KHM because of how easy it was to "splash" (play a few strong cards of other colors) without a major concistancy hit. However, my win rate when splashing (in any combination) in KHM was only 58% across the board. 
