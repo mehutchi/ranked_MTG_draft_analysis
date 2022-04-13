@@ -8,7 +8,7 @@ A draft is a game mode where a circle of eight players each open a 15-card pack 
 
 # Questions (for a given player and a given MTG set)
 1. Which cards improve winrate the most?
-* Are certain cards being over or underplayed based on their contribution?
+   * Are certain cards being over or underplayed based on their contribution?
 3. Which combinations of cards synergize the best?
 4. Which color pairs are the best?
 
