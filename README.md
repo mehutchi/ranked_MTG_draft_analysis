@@ -1,10 +1,19 @@
 # ranked_MTG_draft_analysis
 
-**Overview** - Homemade code that analyzes the results of best-of-one Magic the Gathering (MTG) Arena draft results to help reveal detailed win rate information and player tendencies. 
+# Overview 
+Homemade code that analyzes the results of best-of-one Magic the Gathering (MTG) Arena draft results to help reveal detailed win rate information and player tendencies. 
 
-**Explanation of Draft events** - A draft is a game mode where a circle of eight players each open a 15-card pack (so 120 total cards at the table), select one card from their pack, simultaneously pass the remaining 14 cards to their neighbor, then each make another pick, repeating the process of selecting and passing until the packs are depleted. This is repeated for two more packs (each) and players contruct minimum 40-card decks from their selections to battle against other drafters. This code is designed for best-of-one, where a draft run completes by reaching 7 wins or 3 losses, whichever occurs first. Matches are created according to current win rate and the players' ranks. Thus, players' win rates are pushed towards 50% because you encounter stronger and stronger opponents on average the more you win (given enough time to reach equilibrium). This document will follow the convention of listing (wins, losses) when stating records. Also, the pool of draftable cards (referred to as "draft sets") changes every few months allowing the opportunity to compare results within draft sets and also collectively.
+# What is a draft? 
+A draft is a game mode where a circle of eight players each open a 15-card pack (so 120 total cards at the table), select one card from their pack, simultaneously pass the remaining 14 cards to their neighbor, then each make another pick, repeating the process of selecting and passing until the packs are depleted. This is repeated for two more packs (each) and players contruct minimum 40-card decks from their selections to battle against other drafters. This code is designed for best-of-one, where a draft run completes by reaching 7 wins or 3 losses, whichever occurs first. Matches are created according to current win rate and the players' ranks. Thus, players' win rates are pushed towards 50% because you encounter stronger and stronger opponents on average the more you win (given enough time to reach equilibrium). This document will follow the convention of listing (wins, losses) when stating records. Also, the pool of draftable cards (referred to as "draft sets") changes every few months allowing the opportunity to compare results within draft sets and also collectively.
 
-**Data Collection** - The input file is admittedly not as sophisticated as pulling results from MTG Arena output files, but I choose this approach because I had records from my entire usage across many iterations of the client and because old records are periodically discarded by the client. Typing up the input file is alleviated with text editors that feature autocomplete and by working on the task incrementally.
+# Questions (for a given player and a given MTG set)
+1. Which cards improve winrate the most?
+* Are certain cards being over or underplayed based on their contribution?
+3. Which combinations of cards synergize the best?
+4. Which color pairs are the best?
+
+# Data Collection 
+The input file is admittedly not as sophisticated as pulling results from MTG Arena output files, but I choose this approach because I had records from my entire usage across many iterations of the client and because old records are periodically discarded by the client. Typing up the input file is alleviated with text editors that feature autocomplete and by working on the task incrementally.
 
 The input file follows the following format (csv) for each draft entry:
 
@@ -18,7 +27,8 @@ Following the first descriptor line, the cards are listed, preceded by their cou
 
 Each individual draft is stored as a draft object with the attributes made up of the input information.
 
-**Code Output** - One of the output files produced is a pdf where each row represents a draft set (gameplay variant, indicated with a 3-letter code) and where the left column is a histogram for that draft set with bins for the 10 possible outcomes (0-3 up to 7-0). Draft count and win rate by draft set is also posted in the left column in red font. The right column displays a time series of wins verses draft index (chronological order, not to scale). A linear trendline is also depicted with its corresponding equation in red for each time series. Given enough data points, the trendline can indicate the win rate trajectory of a given set (decreasing, neutral, or increasing).
+# Code Output 
+One of the output files produced is a pdf where each row represents a draft set (gameplay variant, indicated with a 3-letter code) and where the left column is a histogram for that draft set with bins for the 10 possible outcomes (0-3 up to 7-0). Draft count and win rate by draft set is also posted in the left column in red font. The right column displays a time series of wins verses draft index (chronological order, not to scale). A linear trendline is also depicted with its corresponding equation in red for each time series. Given enough data points, the trendline can indicate the win rate trajectory of a given set (decreasing, neutral, or increasing).
 
 ![image](https://user-images.githubusercontent.com/20996215/127245189-b8ac76f9-adc3-40c6-a76c-16b24187c4e7.png)
 
@@ -26,7 +36,8 @@ One interesting observation from the time series in this set is that the win rat
 
 ![image](https://user-images.githubusercontent.com/20996215/133313617-e81848dc-2035-4558-ac3f-f10961c6c4a3.png)
 
-**Analysis** - The above image is the unified histogram of the outcomes across all draft sets, accounting every draft event. It has largely normal Gaussian characteristics, but there is an inversion of expected bin height for the 6-3 and 7-2 outcomes. I estimate this is because of the 7-win-ceiling and the 3-loss-floor. Any start outside of an immediate 0-3 has the possibility of reaching a 7-win record. On the ends of the histrogram, there is only one path to obtaining an 0-3 and also only one path to a 7-0. However, these bin heights are nowhere near the same, because 7 wins is much harder to obtain than 3 losses. To explore the disparity between expected and actual bin heights of the histogram, I made a short brute-force code to determine the number of total outcomes (win/loss sequences, ex. [w, l, w, l, w, w, l] is a sample 4-3 outcome). This code randomly builds outcomes according to the 7-win-ceiling and the 3-loss-floor rules, saving newly discovered outcomes to a list. After running the code a few times with different iteration counts (all the way up to 100,000 iterations) and the code converged at 120 total outcomes after about 2000 iterations. Here is the code:
+# Analysis 
+The above image is the unified histogram of the outcomes across all draft sets, accounting every draft event. It has largely normal Gaussian characteristics, but there is an inversion of expected bin height for the 6-3 and 7-2 outcomes. I estimate this is because of the 7-win-ceiling and the 3-loss-floor. Any start outside of an immediate 0-3 has the possibility of reaching a 7-win record. On the ends of the histrogram, there is only one path to obtaining an 0-3 and also only one path to a 7-0. However, these bin heights are nowhere near the same, because 7 wins is much harder to obtain than 3 losses. To explore the disparity between expected and actual bin heights of the histogram, I made a short brute-force code to determine the number of total outcomes (win/loss sequences, ex. [w, l, w, l, w, w, l] is a sample 4-3 outcome). This code randomly builds outcomes according to the 7-win-ceiling and the 3-loss-floor rules, saving newly discovered outcomes to a list. After running the code a few times with different iteration counts (all the way up to 100,000 iterations) and the code converged at 120 total outcomes after about 2000 iterations. Here is the code:
 
 ```import random
 from collections import Counter
