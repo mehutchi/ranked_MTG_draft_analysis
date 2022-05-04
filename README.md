@@ -19,7 +19,7 @@ The input file follows the following format (csv) for each draft entry:
 
 ![image](https://user-images.githubusercontent.com/20996215/127382097-bab2dee5-7f4a-4082-8b3e-4c1bb63697f6.png)
 
-[histogram_timeseries_452.pdf](https://github.com/mehutchi/ranked_MTG_draft_analysis/files/8627205/histogram_timeseries_452.pdf)
+![image](https://github.com/mehutchi/ranked_MTG_draft_analysis/files/8627205/histogram_timeseries_452.pdf)
 
 The first line contains: 3-letter set code, number of wins, number of losses, colors, premier or not.
 
