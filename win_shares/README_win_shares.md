@@ -9,3 +9,5 @@ a suffix "common" indicates only common cards
 a suffix "uncommon" indicates only uncommon cards
 
 Cards with winshares under 50% of the average are excluded (from any plot) unless they have a number of copies/inclusions greater than 50% of the maximum copies/inclusions.
+
+files including "basics" are basic lands only
