@@ -1,4 +1,4 @@
-These are all the files and documents related to clustering that are created by the code (although in the same directory as the data set).
+These are all the files and documents related to clustering that are created by the code (although when running the code they appear in the same directory as the data set).
 
 "cluster_results" are the breakdowns of each cluster's contents by set
 
