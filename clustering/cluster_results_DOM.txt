@@ -1,0 +1,564 @@
+45 drafts among 15 clusters in DOM
+
+*** cluster 1 (count: 9 ave win 67.19) ***
+swamp 76
+island 57
+caligo skinwitch 19
+fungal infection 17
+soul salvage 13
+deep freeze 12
+deathbloom thallid 10
+thallid omnivore 10
+forest 9
+homarid explorer 9
+cast down 5
+dark bargain 5
+divination 5
+eviscerate 5
+coldwater snapper 5
+memorial to genius 5
+windgrace acolyte 5
+blink of an eye 4
+vodalian arcanist 4
+cloudreader sphinx 4
+stronghold confessor 4
+memorial to folly 4
+skittering surveyor 3
+tatyova benthic druid 3
+academy journeymage 3
+the eldest reborn 3
+academy drake 3
+cabal evangel 3
+cabal paladin 3
+tolarian scholar 3
+drudge sentinel 3
+sparring construct 3
+in bolass clutches 2
+merfolk trickster 2
+rona disciple of gix 2
+josu vess lich knight 2
+wild onslaught 2
+zahid djinn of the lamp 2
+llanowar scout 2
+arcane flight 2
+dread shade 2
+feral abomination 2
+settle the score 2
+plains 2
+knight of malice 1
+vicious offering 1
+phyrexian scriptures 1
+muldrotha the gravetide 1
+wizards retort 1
+pierce the sky 1
+krosan druid 1
+llanowar envoy 1
+time of ice 1
+tetsuko umezawa fugitive 1
+syncopate 1
+teferi hero of dominaria 1
+diligent excavator 1
+voltaic servant 1
+icy manipulator 1
+demonlord belzenlok 1
+torgaar famine incarnate 1
+sorcerers wand 1
+kazarov sengir pureblood 1
+
+
+*** cluster 2 (count: 1 ave win 40.00) ***
+island 10
+swamp 6
+homarid explorer 4
+deep freeze 3
+vodalian arcanist 2
+cloudreader sphinx 2
+artificers assistant 1
+blink of an eye 1
+caligo skinwitch 1
+vicious offering 1
+academy drake 1
+divination 1
+skittering surveyor 1
+eviscerate 1
+the eldest reborn 1
+windgrace acolyte 1
+in bolass clutches 1
+memorial to genius 1
+
+
+*** cluster 3 (count: 4 ave win 53.85) ***
+swamp 36
+mountain 29
+caligo skinwitch 7
+rat colony 7
+thallid omnivore 7
+soul salvage 6
+shivan fire 5
+cabal evangel 5
+vicious offering 5
+deathbloom thallid 4
+cast down 3
+garna the bloodflame 3
+fungal infection 3
+bloodstone goblin 3
+stronghold confessor 2
+frenzied rage 2
+jousting lance 2
+settle the score 2
+feral abomination 2
+keldon overseer 2
+thallid soothsayer 2
+eviscerate 2
+windgrace acolyte 2
+skittering surveyor 2
+fervent strike 1
+ghitu chronicler 1
+goblin chainwhirler 1
+knight of malice 1
+dark bargain 1
+fiery intervention 1
+torgaar famine incarnate 1
+twoheaded giant 1
+helm of the host 1
+memorial to folly 1
+jayas immolating inferno 1
+ghitu journeymage 1
+whisper blood liturgist 1
+goblin barrage 1
+verix bladewing 1
+yargle glutton of urborg 1
+haphazard bombardment 1
+
+
+*** cluster 4 (count: 3 ave win 63.64) ***
+swamp 28
+mountain 23
+rat colony 11
+ghitu chronicler 5
+windgrace acolyte 5
+stronghold confessor 5
+fiery intervention 4
+caligo skinwitch 3
+dark bargain 3
+keldon raider 3
+soul salvage 2
+verix bladewing 2
+eviscerate 2
+vicious offering 2
+ghitu journeymage 2
+demonlord belzenlok 2
+shivan fire 2
+fungal infection 1
+warlords fury 1
+keldon overseer 1
+karn scion of urza 1
+pardic wanderer 1
+haphazard bombardment 1
+jousting lance 1
+deathbloom thallid 1
+fight with fire 1
+thallid omnivore 1
+settle the score 1
+goblin barrage 1
+icy manipulator 1
+garna the bloodflame 1
+fervent strike 1
+kazarov sengir pureblood 1
+
+
+*** cluster 5 (count: 3 ave win 56.25) ***
+forest 27
+swamp 22
+llanowar scout 5
+thallid omnivore 5
+soul salvage 4
+llanowar elves 3
+fungal infection 3
+saproling migration 3
+krosan druid 3
+yavimaya sapherd 3
+vicious offering 3
+caligo skinwitch 2
+song of freyalise 2
+grow from the ashes 2
+cabal paladin 2
+mountain 2
+dark bargain 2
+settle the score 2
+verdant force 2
+corrosive ooze 2
+deathbloom thallid 2
+fungal plots 1
+hallar the firefletcher 1
+skittering surveyor 1
+demonlord belzenlok 1
+kazarov sengir pureblood 1
+darigaaz reincarnated 1
+torgaar famine incarnate 1
+stronghold confessor 1
+arbor armament 1
+cabal evangel 1
+pierce the sky 1
+windgrace acolyte 1
+urgoros the empty one 1
+thorn elemental 1
+memorial to unity 1
+dread shade 1
+helm of the host 1
+the eldest reborn 1
+primordial wurm 1
+
+
+*** cluster 6 (count: 3 ave win 43.75) ***
+swamp 25
+plains 14
+island 9
+fungal infection 6
+caligo skinwitch 5
+dark bargain 4
+relic runner 4
+soul salvage 3
+eviscerate 3
+memorial to folly 3
+sparring construct 3
+benalish honor guard 2
+dub 2
+arvad the cursed 2
+short sword 2
+blessed light 2
+knight of new benalia 1
+serra disciple 1
+rat colony 1
+danitha capashen paragon 1
+deathbloom thallid 1
+dread shade 1
+kwende pride of femeref 1
+baird steward of argive 1
+aryel knight of windgrace 1
+jhoiras familiar 1
+arcane flight 1
+naban dean of iteration 1
+tetsuko umezawa fugitive 1
+cabal paladin 1
+thallid soothsayer 1
+academy journeymage 1
+cloudreader sphinx 1
+windgrace acolyte 1
+zahid djinn of the lamp 1
+urgoros the empty one 1
+stronghold confessor 1
+cabal evangel 1
+drudge sentinel 1
+pardic wanderer 1
+sergeantatarms 1
+teshar ancestors apostle 1
+josu vess lich knight 1
+the eldest reborn 1
+kazarov sengir pureblood 1
+
+
+*** cluster 7 (count: 3 ave win 71.43) ***
+island 27
+mountain 24
+relic runner 4
+keldon warcaller 4
+blink of an eye 4
+academy drake 4
+ghitu chronicler 4
+short sword 3
+syncopate 3
+fight with fire 3
+cloudreader sphinx 3
+zahid djinn of the lamp 3
+bloodstone goblin 3
+vodalian arcanist 2
+adeliz the cinder wind 2
+shivan fire 2
+in bolass clutches 2
+aesthir glider 2
+sparring construct 1
+tolarian scholar 1
+deep freeze 1
+divination 1
+warcry phoenix 1
+jhoira weatherlight captain 1
+academy journeymage 1
+pardic wanderer 1
+jousting lance 1
+ghitu journeymage 1
+wizards lightning 1
+homarid explorer 1
+keldon raider 1
+artificers assistant 1
+opt 1
+run amok 1
+skittering surveyor 1
+goblin barrage 1
+icy manipulator 1
+jhoiras familiar 1
+
+
+*** cluster 8 (count: 7 ave win 53.33) ***
+mountain 62
+island 57
+ghitu chronicler 14
+vodalian arcanist 10
+tolarian scholar 10
+bloodstone goblin 7
+keldon warcaller 7
+fiery intervention 7
+arcane flight 6
+shivan fire 6
+ghitu journeymage 6
+academy journeymage 6
+coldwater snapper 5
+blink of an eye 5
+warcry phoenix 5
+keldon raider 5
+keldon overseer 5
+adeliz the cinder wind 4
+goblin barrage 4
+deep freeze 3
+cloudreader sphinx 3
+skizzik 3
+syncopate 3
+aesthir glider 3
+merfolk trickster 2
+fight with fire 2
+wizards lightning 2
+time of ice 2
+divination 2
+naru meha master wizard 2
+fervent strike 2
+befuddle 2
+short sword 2
+squee the immortal 2
+jaya ballard 1
+warlords fury 1
+icy manipulator 1
+in bolass clutches 1
+sorcerers wand 1
+run amok 1
+academy drake 1
+haphazard bombardment 1
+skittering surveyor 1
+frenzied rage 1
+zahid djinn of the lamp 1
+relic runner 1
+tetsuko umezawa fugitive 1
+wizards retort 1
+
+
+*** cluster 9 (count: 2 ave win 57.14) ***
+mountain 17
+forest 17
+bloodstone goblin 4
+llanowar scout 3
+hallar the firefletcher 3
+grand warlord radha 3
+wild onslaught 3
+keldon warcaller 2
+saproling migration 2
+krosan druid 2
+haphazard bombardment 2
+shivan fire 2
+ghitu chronicler 2
+llanowar envoy 2
+keldon raider 2
+fervent strike 1
+arbor armament 1
+run amok 1
+pierce the sky 1
+keldon overseer 1
+yavimaya sapherd 1
+fight with fire 1
+grow from the ashes 1
+baloth gorger 1
+primordial wurm 1
+ancient animus 1
+ghitu journeymage 1
+icy manipulator 1
+multani yavimayas avatar 1
+
+
+*** cluster 10 (count: 2 ave win 33.33) ***
+mountain 20
+swamp 7
+forest 6
+ghitu lavarunner 4
+keldon warcaller 4
+bloodstone goblin 3
+run amok 3
+keldon raider 3
+shivan fire 2
+short sword 2
+frenzied rage 2
+saproling migration 2
+keldon overseer 2
+valduk keeper of the flame 2
+fungal infection 2
+twoheaded giant 2
+the eldest reborn 2
+untamed kavu 1
+song of freyalise 1
+wizards lightning 1
+goblin barrage 1
+caligo skinwitch 1
+aesthir glider 1
+chainers torment 1
+icy manipulator 1
+juggernaut 1
+yargle glutton of urborg 1
+fiery intervention 1
+
+
+*** cluster 11 (count: 3 ave win 30.77) ***
+island 27
+plains 14
+forest 9
+arcane flight 6
+tolarian scholar 5
+deep freeze 4
+coldwater snapper 4
+blink of an eye 3
+academy drake 3
+tatyova benthic druid 3
+serra disciple 2
+davenant trapper 2
+aesthir glider 2
+baird steward of argive 2
+academy journeymage 2
+jhoiras familiar 2
+cloudreader sphinx 2
+blessed light 2
+knight of new benalia 1
+jousting lance 1
+invoke the divine 1
+homarid explorer 1
+zahid djinn of the lamp 1
+artificers assistant 1
+sparring construct 1
+vodalian arcanist 1
+untamed kavu 1
+fungal plots 1
+saproling migration 1
+tempest djinn 1
+skittering surveyor 1
+weatherlight 1
+gilded lotus 1
+pardic wanderer 1
+syncopate 1
+benalish honor guard 1
+diligent excavator 1
+merfolk trickster 1
+seal away 1
+befuddle 1
+aven sentry 1
+raff capashen ships mage 1
+memorial to unity 1
+
+
+*** cluster 12 (count: 1 ave win 62.50) ***
+island 9
+plains 7
+artificers assistant 3
+sparring construct 3
+serra disciple 3
+short sword 2
+relic runner 2
+tetsuko umezawa fugitive 2
+voltaic servant 2
+deep freeze 2
+jousting lance 1
+dub 1
+time of ice 1
+blessed light 1
+coldwater snapper 1
+
+
+*** cluster 13 (count: 2 ave win 50.00) ***
+plains 16
+forest 15
+jousting lance 3
+pegasus courser 3
+yavimaya sapherd 3
+short sword 2
+serra disciple 2
+voltaic servant 2
+krosan druid 2
+aesthir glider 2
+skittering surveyor 2
+memorial to unity 2
+corrosive ooze 2
+elfhame druid 2
+gift of growth 2
+wild onslaught 2
+mesa unicorn 1
+ancient animus 1
+benalish marshal 1
+dub 1
+gaeas protector 1
+traxos scourge of kroog 1
+mammoth spider 1
+blessed light 1
+primordial wurm 1
+llanowar elves 1
+untamed kavu 1
+benalish honor guard 1
+knight of new benalia 1
+broken bond 1
+shanna sisays legacy 1
+baloth gorger 1
+thorn elemental 1
+
+
+*** cluster 14 (count: 1 ave win 25.00) ***
+forest 9
+swamp 5
+elfhame druid 2
+llanowar scout 2
+krosan druid 2
+llanowar envoy 2
+grow from the ashes 2
+dark bargain 2
+island 2
+fungal infection 1
+bloodtallow candle 1
+josu vess lich knight 1
+deep freeze 1
+mammoth spider 1
+tatyova benthic druid 1
+blessed light 1
+the eldest reborn 1
+zahid djinn of the lamp 1
+grunn the lonely king 1
+verdant force 1
+plains 1
+
+
+*** cluster 15 (count: 1 ave win 87.50) ***
+forest 8
+island 7
+vodalian arcanist 4
+syncopate 2
+swamp 2
+llanowar elves 1
+untamed kavu 1
+blink of an eye 1
+ancient animus 1
+krosan druid 1
+llanowar envoy 1
+yavimaya sapherd 1
+divination 1
+wizards retort 1
+grow from the ashes 1
+baloth gorger 1
+icy manipulator 1
+mammoth spider 1
+tatyova benthic druid 1
+coldwater snapper 1
+muldrotha the gravetide 1
+in bolass clutches 1
+
+

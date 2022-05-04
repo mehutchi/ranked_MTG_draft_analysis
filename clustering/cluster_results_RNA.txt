@@ -1,0 +1,479 @@
+54 drafts among 9 clusters in RNA
+
+*** cluster 1 (count: 2 ave win 45.45) ***
+swamp 16
+mountain 13
+rakdos trumpeter 4
+dead revels 4
+blade juggler 4
+illgotten inheritance 3
+rakdos guildgate 3
+plague wight 3
+thirsting shade 2
+fireblade artist 2
+noxious groodion 2
+burningtree vandal 2
+rakdos roustabout 2
+carnival 2
+rubblebelt recluse 2
+get the point 2
+bedeck 2
+gutterbones 1
+footlight fiend 1
+orzhov enforcer 1
+grotesque demise 1
+vindictive vampire 1
+storm strike 1
+bladebrand 1
+vizkopa vampire 1
+drill bit 1
+spawn of mayhem 1
+consign to the pit 1
+blood crypt 1
+
+
+*** cluster 2 (count: 7 ave win 63.46) ***
+swamp 55
+mountain 53
+grotesque demise 13
+skewer the critics 11
+feral maaka 9
+dead revels 9
+rakdos trumpeter 8
+blade juggler 8
+carrion imp 8
+footlight fiend 7
+rakdos guildgate 7
+plague wight 7
+fireblade artist 6
+scorchmark 6
+rakdos roustabout 6
+get the point 6
+illgotten inheritance 6
+clamor shaman 5
+dagger caster 5
+carnival 5
+rubblebelt recluse 5
+orzhov enforcer 3
+undercity scavenger 3
+vizkopa vampire 3
+spear spewer 2
+smeltward ignus 2
+hackrobat 2
+ghorclan wrecker 2
+thrash 2
+tin street dodger 2
+pestilent spirit 2
+burningtree vandal 2
+light up the stage 1
+thirsting shade 1
+bladebrand 1
+rix maadi reveler 1
+bedevil 1
+immolation shaman 1
+cult guildmage 1
+electrodominance 1
+storm strike 1
+spire mangler 1
+rakdos firewheeler 1
+
+
+*** cluster 3 (count: 8 ave win 52.94) ***
+swamp 54
+plains 43
+grasping thrull 20
+mountain 14
+rakdos guildgate 13
+blade juggler 12
+noxious groodion 11
+dead revels 11
+vizkopa vampire 8
+illgotten inheritance 8
+twilight panther 7
+rakdos trumpeter 7
+orzhov guildgate 7
+final payment 6
+plague wight 6
+carrion imp 5
+consign to the pit 5
+grotesque demise 5
+imperious oligarch 5
+gateway plaza 5
+orzhov enforcer 3
+prowling caracal 3
+footlight fiend 3
+vindictive vampire 3
+orzhov locket 2
+syndicate messenger 2
+get the point 2
+rakdos roustabout 2
+kaya orzhov usurper 2
+undercity scavenger 2
+ghorclan wrecker 2
+bedevil 2
+seraph of the scales 2
+thirsting shade 2
+feral maaka 2
+scorchmark 2
+burningtree vandal 2
+theater of horrors 2
+priest of forgotten gods 2
+drill bit 2
+sky tether 1
+impassioned orator 1
+tithe taker 1
+sentinels mark 1
+ministrant of obligation 1
+mortify 1
+dagger caster 1
+sphinx of the guildpact 1
+bladebrand 1
+undercitys embrace 1
+resolute watchdog 1
+spire mangler 1
+archway angel 1
+summary judgment 1
+pestilent spirit 1
+hackrobat 1
+storm strike 1
+clamor shaman 1
+rakdos firewheeler 1
+consecrate 1
+gate colossus 1
+concordia pegasus 1
+revival 1
+
+
+*** cluster 4 (count: 8 ave win 62.26) ***
+swamp 62
+plains 54
+plague wight 15
+dead revels 11
+grasping thrull 10
+noxious groodion 9
+grotesque demise 9
+carrion imp 9
+consign to the pit 9
+twilight panther 8
+imperious oligarch 8
+orzhov guildgate 8
+impassioned orator 8
+blade juggler 8
+syndicate messenger 7
+bladebrand 6
+final payment 6
+pitiless pontiff 5
+azorius guildgate 4
+undercity scavenger 3
+illgotten inheritance 3
+consecrate 3
+orzhov enforcer 3
+mortify 3
+resolute watchdog 2
+orzhov locket 2
+sky tether 2
+vindictive vampire 2
+basilica bellhaunt 2
+gate colossus 2
+rakdos guildgate 2
+tithe taker 2
+concordia pegasus 2
+spire mangler 2
+teysa karlov 2
+kayas wrath 2
+summary judgment 2
+undercitys embrace 1
+dovin grand arbiter 1
+island 1
+gateway plaza 1
+rakdos trumpeter 1
+forbidding spirit 1
+ethereal absolution 1
+godless shrine 1
+priest of forgotten gods 1
+catacomb crocodile 1
+debtors transport 1
+footlight fiend 1
+revival 1
+unbreakable formation 1
+angelic exaltation 1
+lumbering battlement 1
+bring to trial 1
+pestilent spirit 1
+vizkopa vampire 1
+angel of grace 1
+
+
+*** cluster 5 (count: 9 ave win 66.67) ***
+plains 64
+swamp 55
+orzhov guildgate 18
+syndicate messenger 15
+twilight panther 14
+final payment 13
+grasping thrull 12
+imperious oligarch 9
+carrion imp 8
+summary judgment 7
+vizkopa vampire 7
+dead revels 7
+noxious groodion 6
+consign to the pit 6
+impassioned orator 6
+rakdos guildgate 6
+plague wight 6
+sky tether 5
+concordia pegasus 5
+gateway plaza 5
+orzhov locket 5
+blade juggler 4
+orzhov enforcer 3
+pitiless pontiff 3
+sentinels mark 3
+archway angel 3
+mountain 3
+bladebrand 3
+forbidding spirit 3
+vindictive vampire 3
+revival 3
+gate colossus 3
+angelic exaltation 3
+ministrant of obligation 2
+teysa karlov 2
+consecrate 2
+sphinx of the guildpact 2
+gutterbones 2
+catacomb crocodile 2
+syndicate guildmage 2
+senate griffin 2
+seraph of the scales 2
+basilica bellhaunt 2
+bedeck 2
+azorius guildgate 2
+resolute watchdog 2
+mortify 2
+footlight fiend 2
+priest of forgotten gods 2
+bring to trial 1
+rakdos locket 1
+carnival 1
+knight of sorrows 1
+thirsting shade 1
+prowling caracal 1
+undercity scavenger 1
+rakdos the showstopper 1
+pestilent spirit 1
+kayas wrath 1
+spirit of the spires 1
+rakdos trumpeter 1
+hero of precinct one 1
+
+
+*** cluster 6 (count: 2 ave win 40.00) ***
+island 15
+plains 8
+lawmages binding 3
+orzhov guildgate 3
+sky tether 2
+final payment 2
+senate courier 2
+vizkopa vampire 2
+code of constraint 2
+skitter eel 2
+senate griffin 2
+azorius knightarbiter 2
+gate colossus 2
+high alert 2
+concordia pegasus 1
+summary judgment 1
+arresters admonition 1
+dovin grand arbiter 1
+syndicate messenger 1
+chillbringer 1
+mesmerizing benthid 1
+grasping thrull 1
+tome of the guildpact 1
+prying eyes 1
+swamp 1
+rakdos guildgate 1
+gateway plaza 1
+persistent petitioners 1
+imperious oligarch 1
+sentinels mark 1
+quench 1
+slimebind 1
+ministrant of obligation 1
+expose to daylight 1
+junktroller 1
+illgotten inheritance 1
+humongulus 1
+blade juggler 1
+depose 1
+
+
+*** cluster 7 (count: 5 ave win 55.88) ***
+island 39
+plains 29
+summary judgment 13
+slimebind 7
+faerie duelist 6
+wall of lost thoughts 6
+orzhov guildgate 6
+thought collapse 6
+arresters admonition 5
+chillbringer 4
+sky tether 3
+quench 3
+senate courier 3
+vizkopa vampire 3
+lawmages binding 3
+humongulus 3
+azorius guildgate 3
+senate guildmage 3
+essence capture 3
+concordia pegasus 2
+gateway sneak 2
+windstorm drake 2
+azorius knightarbiter 2
+persistent petitioners 2
+code of constraint 2
+precognitive perception 2
+archway angel 2
+gruul guildgate 2
+gateway plaza 2
+clear the mind 2
+dovins acuity 2
+absorb 2
+syndicate messenger 2
+tenth district veteran 2
+grasping thrull 2
+swamp 2
+impassioned orator 1
+sentinels mark 1
+shimmer of possibility 1
+ministrant of obligation 1
+azorius locket 1
+high alert 1
+spirit of the spires 1
+lumbering battlement 1
+screaming shield 1
+sages row savant 1
+sphinx of new prahv 1
+depose 1
+gate colossus 1
+kaya orzhov usurper 1
+watchful giant 1
+pteramander 1
+consecrate 1
+
+
+*** cluster 8 (count: 4 ave win 52.00) ***
+island 30
+forest 29
+sauroform hybrid 9
+steeple creeper 9
+faerie duelist 6
+titanic brawl 6
+chillbringer 6
+simic guildgate 5
+sages row savant 4
+aeromunculus 4
+arresters admonition 4
+applied biomancy 4
+essence capture 3
+thought collapse 3
+biomancers familiar 2
+slimebind 2
+enraged ceratok 2
+senate griffin 2
+gruul guildgate 2
+breeding pool 2
+axebane beast 2
+growth spiral 2
+pteramander 1
+gateway sneak 1
+gyre engineer 1
+incubation 1
+skitter eel 1
+biogenic upgrade 1
+combine guildmage 1
+gift of strength 1
+trollbred guardian 1
+thrash 1
+quench 1
+code of constraint 1
+frilled mystic 1
+mesmerizing benthid 1
+prying eyes 1
+wrecking beast 1
+rubble slinger 1
+simic locket 1
+sphinx of foresight 1
+gruul beastmaster 1
+mammoth spider 1
+biogenic ooze 1
+
+
+*** cluster 9 (count: 9 ave win 60.94) ***
+mountain 67
+forest 64
+gravelhide goblin 15
+sauroform hybrid 14
+skewer the critics 14
+rubblebelt runner 12
+burningtree vandal 11
+feral maaka 10
+clamor shaman 10
+gruul guildgate 10
+territorial boar 10
+savage smash 10
+titanic brawl 8
+rubblebelt recluse 7
+frenzied arynx 7
+scorchmark 6
+sunder shaman 6
+gift of strength 6
+rhythm of the wild 5
+rakdos guildgate 4
+gruul beastmaster 4
+storm strike 4
+dagger caster 3
+trollbred guardian 3
+mammoth spider 3
+collision 3
+steeple creeper 3
+zhurtaa goblin 2
+simic guildgate 2
+gateway plaza 2
+gruul spellbreaker 2
+ghorclan wrecker 2
+rumbling ruin 2
+clan guildmage 1
+endraze forerunners 1
+gate colossus 1
+act of treason 1
+gruul locket 1
+axebane beast 1
+regenesis 1
+ravager wurm 1
+rubble slinger 1
+flames of the razeboar 1
+wrecking beast 1
+growthchamber guardian 1
+incubation druid 1
+biogenic ooze 1
+immolation shaman 1
+burn bright 1
+spikewheel acrobat 1
+stony strength 1
+gatebreaker ram 1
+judith the scourge diva 1
+gates ablaze 1
+guardian project 1
+swamp 1
+light up the stage 1
+stomping ground 1
+silhana wayfinder 1
+rampaging rendhorn 1
+
+

@@ -1,0 +1,448 @@
+46 drafts among 10 clusters in GRN
+
+*** cluster 1 (count: 12 ave win 59.76) ***
+forest 95
+swamp 92
+generous stray 25
+rhizome lurcher 24
+devkarin dissident 18
+undercity uprising 15
+kraul foragers 14
+burglar rat 13
+ironshell beetle 10
+pitiless gorgon 10
+golgari guildgate 9
+vigorspore wurm 9
+severed strands 8
+hitchclaw recluse 8
+kraul harpooner 7
+deadly visit 7
+prey upon 6
+bartizan bats 6
+dead weight 6
+necrotic wound 6
+swarm guildmage 6
+child of night 6
+vernadi shieldmate 5
+golgari findbroker 5
+kraul swarm 4
+spinal centipede 4
+pilfering imp 3
+ochran assassin 3
+status 3
+might of the masses 3
+lotleth giant 3
+glowspore shaman 3
+selesnya guildgate 3
+gateway plaza 3
+douser of lights 3
+whisper agent 3
+district guide 2
+hatchery spider 2
+izoni thousandeyed 2
+affectionate indrik 2
+wild ceratok 2
+wary okapi 2
+midnight reaper 1
+assassins trophy 1
+whispering snitch 1
+beast whisperer 1
+chamber sentry 1
+price of fame 1
+underrealm lich 1
+discovery 1
+dimir guildgate 1
+urban utopia 1
+ledev champion 1
+luminous bonds 1
+vraska golgari queen 1
+flight of equenauts 1
+plains 1
+plaguecrafter 1
+vivid revival 1
+veiled shade 1
+hired poisoner 1
+ritual of soot 1
+
+
+*** cluster 2 (count: 1 ave win 40.00) ***
+swamp 7
+forest 5
+child of night 2
+generous stray 2
+whisper agent 2
+wild ceratok 2
+deadly visit 2
+selesnya guildgate 2
+hired poisoner 1
+pilfering imp 1
+necrotic wound 1
+might of the masses 1
+chamber sentry 1
+ironshell beetle 1
+severed strands 1
+assassins trophy 1
+spinal centipede 1
+hitchclaw recluse 1
+douser of lights 1
+kraul swarm 1
+molderhulk 1
+dimir guildgate 1
+izzet guildgate 1
+gateway plaza 1
+
+
+*** cluster 3 (count: 5 ave win 50.00) ***
+swamp 34
+island 33
+dimir guildgate 10
+pitiless gorgon 8
+bartizan bats 8
+burglar rat 6
+notion rain 5
+wishcoin crab 5
+forest 5
+douser of lights 5
+house guildmage 4
+severed strands 4
+whispering snitch 4
+child of night 3
+thoughtbound phantasm 3
+vedalken mesmerist 3
+whisper agent 3
+dead weight 3
+dazzling lights 2
+passwall adept 2
+dimir spybug 2
+thought erasure 2
+capture sphere 2
+kraul swarm 2
+nightveil sprite 2
+leapfrog 2
+muse drake 2
+watcher in the mist 2
+lotleth giant 2
+chemisters insight 2
+golgari guildgate 2
+lazav the multifarious 1
+disinformation campaign 1
+moodmark painter 1
+etrata the silencer 1
+barrier of bones 1
+prey upon 1
+dimir informant 1
+nullhide ferox 1
+vigorspore wurm 1
+izoni thousandeyed 1
+gatekeeper gargoyle 1
+expansion 1
+radical idea 1
+darkblade agent 1
+nightveil predator 1
+artful takedown 1
+gateway plaza 1
+undercity necrolisk 1
+undercity uprising 1
+vraska golgari queen 1
+discovery 1
+plaguecrafter 1
+blood operative 1
+devious coverup 1
+deadly visit 1
+
+
+*** cluster 4 (count: 2 ave win 61.54) ***
+swamp 16
+island 15
+child of night 4
+wishcoin crab 4
+deadly visit 4
+passwall adept 3
+thought erasure 3
+pitiless gorgon 3
+devious coverup 3
+douser of lights 3
+nightveil predator 2
+artful takedown 2
+chamber sentry 1
+darkblade agent 1
+whisper agent 1
+disinformation campaign 1
+chemisters insight 1
+izzet guildgate 1
+golgari guildgate 1
+thoughtbound phantasm 1
+dead weight 1
+house guildmage 1
+unexplained disappearance 1
+spinal centipede 1
+notion rain 1
+muse drake 1
+price of fame 1
+doom whisperer 1
+find 1
+forest 1
+
+
+*** cluster 5 (count: 10 ave win 64.79) ***
+island 77
+swamp 72
+passwall adept 26
+dimir informant 14
+notion rain 11
+dimir guildgate 11
+child of night 10
+wishcoin crab 10
+bartizan bats 9
+severed strands 9
+veiled shade 7
+disdainful stroke 6
+dazzling lights 6
+watcher in the mist 6
+dead weight 5
+radical idea 5
+thought erasure 5
+whisper agent 5
+sinister sabotage 5
+murmuring mystic 5
+spinal centipede 5
+capture sphere 5
+house guildmage 5
+devious coverup 5
+price of fame 4
+gateway plaza 3
+nightveil sprite 3
+dimir spybug 3
+blood operative 3
+pitiless gorgon 3
+muse drake 3
+necrotic wound 3
+vedalken mesmerist 3
+discovery 3
+silent dart 2
+connive 2
+disinformation campaign 2
+artful takedown 2
+mountain 2
+izzet guildgate 2
+hired poisoner 2
+plaguecrafter 2
+darkblade agent 2
+douser of lights 2
+unexplained disappearance 2
+nightveil predator 2
+never happened 2
+wall of mist 1
+etrata the silencer 1
+thoughtbound phantasm 1
+whispering snitch 1
+dimir locket 1
+moodmark painter 1
+izzet locket 1
+ral izzet viceroy 1
+citywatch sphinx 1
+deadly visit 1
+selective snare 1
+beacon bolt 1
+doom whisperer 1
+steam vents 1
+lotleth giant 1
+watery grave 1
+quasiduplicate 1
+pistonfist cyclops 1
+
+
+*** cluster 6 (count: 7 ave win 58.33) ***
+mountain 52
+island 50
+fire urchin 10
+izzet guildgate 9
+passwall adept 9
+goblin electromancer 8
+leapfrog 8
+pistonfist cyclops 8
+sonic assault 8
+hypothesizzle 7
+radical idea 6
+command the storm 6
+crackling drake 5
+maximize velocity 4
+wishcoin crab 4
+fearless halberdier 4
+rubblebelt boar 4
+barging sergeant 4
+maximize altitude 4
+league guildmage 4
+goblin cratermaker 3
+muse drake 3
+goblin locksmith 3
+selective snare 3
+ornery goblin 3
+capture sphere 3
+goblin banneret 2
+chemisters insight 2
+book devourer 2
+plains 2
+wee dragonauts 2
+cosmotronic wave 2
+hellkite whelp 2
+dimir guildgate 2
+gateway plaza 2
+erratic cyclops 2
+watcher in the mist 2
+direct current 2
+unexplained disappearance 2
+lava coil 2
+beamsplitter mage 1
+tajic legions edge 1
+boros locket 1
+aurelia exemplar of justice 1
+swathcutter giant 1
+boros guildgate 1
+whisper agent 1
+izzet locket 1
+price of fame 1
+swamp 1
+murmuring mystic 1
+electrostatic field 1
+rampaging monument 1
+vedalken mesmerist 1
+arclight phoenix 1
+gravitic punch 1
+dream eater 1
+disdainful stroke 1
+runaway steamkin 1
+
+
+*** cluster 7 (count: 2 ave win 40.00) ***
+island 16
+mountain 14
+passwall adept 4
+dazzling lights 3
+pistonfist cyclops 3
+beacon bolt 3
+silent dart 2
+goblin locksmith 2
+freshfaced recruit 2
+unexplained disappearance 2
+leapfrog 2
+whisper agent 2
+wee dragonauts 2
+wishcoin crab 2
+gravitic punch 2
+watcher in the mist 2
+fire urchin 2
+dimir informant 2
+gateway plaza 2
+electrostatic field 1
+erratic cyclops 1
+capture sphere 1
+cosmotronic wave 1
+sinister sabotage 1
+chemisters insight 1
+command the storm 1
+nivmizzet parun 1
+swathcutter giant 1
+boros guildgate 1
+izzet guildgate 1
+
+
+*** cluster 8 (count: 5 ave win 46.43) ***
+plains 39
+mountain 39
+tenth district guard 7
+barging sergeant 7
+fire urchin 6
+blade instructor 6
+skyknight legionnaire 6
+parhelion patrol 6
+demotion 5
+freshfaced recruit 5
+hammer dropper 5
+healers hawk 4
+ornery goblin 4
+vernadi shieldmate 4
+direct current 4
+cosmotronic wave 4
+candlelight vigil 4
+goblin banneret 3
+integrity 3
+luminous bonds 3
+goblin locksmith 2
+intrusive packbeast 2
+boros challenger 2
+rubblebelt boar 2
+take heart 2
+skyline scout 2
+legion guildmage 2
+sure strike 2
+response 2
+boros guildgate 2
+swiftblade vindicator 1
+risk factor 1
+gravitic punch 1
+hellkite whelp 1
+sunhome stalwart 1
+justice strike 1
+inspiring unicorn 1
+righteous blow 1
+bounty agent 1
+legion warboss 1
+command the storm 1
+maniacal rage 1
+truefire captain 1
+wojek bodyguard 1
+citywide bust 1
+conclave tribunal 1
+
+
+*** cluster 9 (count: 1 ave win 0.00) ***
+forest 7
+plains 6
+district guide 2
+generous stray 2
+centaur peacemaker 2
+conclave cavalier 2
+price of fame 2
+golgari guildgate 2
+necrotic wound 1
+sunhome stalwart 1
+grappling sundew 1
+ironshell beetle 1
+vernadi shieldmate 1
+parhelion patrol 1
+collar the culprit 1
+rosemane centaur 1
+response 1
+assure 1
+camaraderie 1
+flight of equenauts 1
+overgrown tomb 1
+boros guildgate 1
+
+
+*** cluster 10 (count: 1 ave win 77.78) ***
+forest 7
+plains 6
+devkarin dissident 4
+prey upon 3
+ironshell beetle 2
+selesnya guildgate 2
+healers hawk 1
+righteous blow 1
+take heart 1
+might of the masses 1
+freshfaced recruit 1
+emmara soul of the accord 1
+blade instructor 1
+luminous bonds 1
+citywide bust 1
+ledev champion 1
+wild ceratok 1
+sumala woodshaper 1
+intrusive packbeast 1
+flower 1
+vigorspore wurm 1
+worldsoul colossus 1
+
+

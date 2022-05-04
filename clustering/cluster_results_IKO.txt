@@ -1,0 +1,653 @@
+41 drafts among 12 clusters in IKO
+
+*** cluster 1 (count: 4 ave win 74.19) ***
+plains 28
+island 23
+pacifism 8
+frost lynx 8
+checkpoint officer 6
+tranquil cove 6
+savai sabertooth 5
+helica glider 5
+glimmerbell 4
+frostveil ambush 4
+drannith healer 3
+capture sphere 3
+coordinated charge 3
+boon of the wishgiver 3
+divine arrow 3
+daysquad marshal 3
+evolving wilds 3
+essence scatter 3
+crystalline giant 2
+gust of wind 2
+snare tactician 2
+blade banish 2
+dreamtail heron 2
+mountain 2
+fight as one 1
+springjaw trap 1
+thieving otter 1
+jubilant skybonder 1
+raugrin triome 1
+flourishing fox 1
+skycat sovereign 1
+seadasher octopus 1
+huntmaster liger 1
+mystic subdual 1
+lavabrink venturer 1
+stormwild capridor 1
+necropanther 1
+farfinder 1
+mythos of snapdax 1
+reconnaissance mission 1
+yorion sky nomad 1
+shark typhoon 1
+archipelagore 1
+yidaro wandering monster 1
+swamp 1
+swiftwater cliffs 1
+keep safe 1
+will of the allhunter 1
+perimeter sergeant 1
+vulpikeet 1
+wingfold pteron 1
+
+
+*** cluster 2 (count: 2 ave win 45.45) ***
+plains 10
+swamp 7
+checkpoint officer 5
+imposing vantasaur 5
+gyruda doom of depths 2
+durable coilbug 2
+essence symbiote 2
+humble naturalist 2
+hampering snare 2
+easy prey 2
+shredded sails 2
+ram through 2
+wilt 2
+daysquad marshal 2
+huntmaster liger 2
+zenith flare 2
+rugged highlands 2
+mountain 2
+forest 2
+suffocating fumes 2
+startling development 1
+bushmeat poacher 1
+dirge bat 1
+lava serpent 1
+honey mammoth 1
+indatha triome 1
+scoured barrens 1
+dismal backwater 1
+jungle hollow 1
+footfall crater 1
+divine arrow 1
+pacifism 1
+savai sabertooth 1
+will of the allhunter 1
+raking claws 1
+dire tactics 1
+fiend artisan 1
+snare tactician 1
+mythos of nethroi 1
+extinction event 1
+void beckoner 1
+bloodfell caves 1
+
+
+*** cluster 3 (count: 5 ave win 51.85) ***
+swamp 36
+plains 31
+nightsquad commando 9
+pacifism 8
+checkpoint officer 6
+boot nipper 5
+easy prey 5
+daysquad marshal 5
+dead weight 4
+sanctuary lockdown 4
+bastion of remembrance 4
+evolving wilds 4
+drannith healer 4
+helica glider 3
+rumbling rockslide 3
+mountain 3
+dire tactics 3
+perimeter sergeant 3
+keensight mentor 2
+vulpikeet 2
+imposing vantasaur 2
+windscarred crag 2
+whisper squad 2
+swallow whole 2
+durable coilbug 2
+heartless act 2
+snare tactician 2
+farfinder 2
+memory leak 2
+adaptive shimmerer 2
+blood curdle 2
+serrated scorpion 2
+drannith magistrate 1
+savai sabertooth 1
+generals enforcer 1
+fiend artisan 1
+alert heedbonder 1
+bushmeat poacher 1
+obosh the preypiercer 1
+bloodfell caves 1
+fight as one 1
+lurking deadeye 1
+blitz leech 1
+sonorous howlbonder 1
+call of the deathdweller 1
+mythos of nethroi 1
+dark bargain 1
+coordinated charge 1
+grimdancer 1
+extinction event 1
+dirge bat 1
+umori the collector 1
+cavern whisperer 1
+scoured barrens 1
+weaponize the monsters 1
+divine arrow 1
+drannith stinger 1
+fire prophecy 1
+go for blood 1
+shredded sails 1
+suffocating fumes 1
+yidaro wandering monster 1
+
+
+*** cluster 4 (count: 6 ave win 56.10) ***
+forest 32
+plains 29
+savai sabertooth 10
+maned serval 9
+mosscoat goriak 7
+evolving wilds 7
+swamp 6
+mountain 6
+essence symbiote 5
+fertilid 5
+migratory greathorn 5
+blade banish 5
+island 5
+rumbling rockslide 4
+auspicious starrix 4
+greater sandwurm 4
+frondland felidar 4
+scoured barrens 4
+helica glider 4
+divine arrow 3
+boneyard lurker 3
+blossoming sands 3
+humble naturalist 3
+necropanther 3
+huntmaster liger 3
+vulpikeet 3
+swallow whole 3
+pacifism 3
+honey mammoth 3
+almighty brushwagg 2
+ram through 2
+raugrin triome 2
+titanoth rex 2
+kaheera the orphanguard 2
+frost lynx 2
+coordinated charge 2
+dismal backwater 2
+indatha triome 2
+fight as one 2
+mythos of brokkos 2
+jubilant skybonder 2
+barrier breach 2
+crystalline giant 1
+majestic auricorn 1
+quartzwood crasher 1
+rugged highlands 1
+umori the collector 1
+checkpoint officer 1
+snare tactician 1
+splendor mare 1
+alert heedbonder 1
+cubwarden 1
+jungle hollow 1
+bonders enclave 1
+zagoth mamba 1
+boot nipper 1
+skycat sovereign 1
+will of the allhunter 1
+corpse churn 1
+heartless act 1
+back for more 1
+gemrazer 1
+pouncing shoreshark 1
+archipelagore 1
+drannith healer 1
+skull prophet 1
+farfinder 1
+fully grown 1
+blood curdle 1
+gyruda doom of depths 1
+eerie ultimatum 1
+thornwood falls 1
+springjaw trap 1
+zirda the dawnwaker 1
+
+
+*** cluster 5 (count: 3 ave win 63.64) ***
+forest 24
+swamp 21
+dead weight 7
+skull prophet 4
+mosscoat goriak 4
+boot nipper 3
+ram through 3
+farfinder 3
+umori the collector 3
+greater sandwurm 3
+humble naturalist 3
+migratory greathorn 3
+honey mammoth 3
+easy prey 2
+grimdancer 2
+blood curdle 2
+almighty brushwagg 2
+mutual destruction 2
+alert heedbonder 2
+boneyard lurker 2
+evolving wilds 2
+durable coilbug 1
+hornbash mentor 1
+charge of the foreverbeast 1
+proud wildbonder 1
+blitz leech 1
+back for more 1
+titanoth rex 1
+jungle hollow 1
+indatha triome 1
+essence symbiote 1
+excavation mole 1
+mythos of nethroi 1
+bushmeat poacher 1
+mythos of brokkos 1
+obosh the preypiercer 1
+savai triome 1
+extinction event 1
+cavern whisperer 1
+gyruda doom of depths 1
+
+
+*** cluster 6 (count: 2 ave win 33.33) ***
+swamp 12
+island 11
+essence scatter 4
+boot nipper 3
+durable coilbug 3
+frost lynx 3
+bushmeat poacher 3
+dead weight 2
+mutual destruction 2
+memory leak 2
+blitz leech 2
+archipelagore 2
+scoured barrens 2
+capture sphere 2
+dismal backwater 2
+checkpoint officer 1
+facet reader 1
+pacifism 1
+lavabrink venturer 1
+blade banish 1
+blood curdle 1
+shark typhoon 1
+boon of the wishgiver 1
+void beckoner 1
+tranquil cove 1
+indatha triome 1
+raugrin triome 1
+keep safe 1
+heartless act 1
+duskfang mentor 1
+slitherwisp 1
+lore drakkis 1
+farfinder 1
+convolute 1
+of one mind 1
+suffocating fumes 1
+dark bargain 1
+adaptive shimmerer 1
+mountain 1
+evolving wilds 1
+
+
+*** cluster 7 (count: 4 ave win 47.83) ***
+island 17
+forest 15
+swamp 8
+facet reader 6
+essence scatter 6
+farfinder 6
+ram through 5
+rugged highlands 5
+mountain 5
+fertilid 4
+auspicious starrix 4
+back for more 4
+thornwood falls 4
+plains 3
+rumbling rockslide 3
+evolving wilds 3
+heartless act 2
+thieving otter 2
+bristling boar 2
+blood curdle 2
+honey mammoth 2
+pollywog symbiote 2
+trumpeting gnarr 2
+frostveil ambush 2
+durable coilbug 2
+almighty brushwagg 1
+phase dolphin 1
+glowstone recluse 1
+parcelbeast 1
+mythos of illuna 1
+mythos of brokkos 1
+cavern whisperer 1
+boon of the wishgiver 1
+ivy elemental 1
+essence symbiote 1
+humble naturalist 1
+divine arrow 1
+pacifism 1
+helica glider 1
+lurrus of the dreamden 1
+vulpikeet 1
+migratory greathorn 1
+boneyard lurker 1
+blade banish 1
+quartzwood crasher 1
+blossoming sands 1
+ketria triome 1
+tranquil cove 1
+bloodfell caves 1
+lutri the spellchaser 1
+glimmerbell 1
+fire prophecy 1
+go for blood 1
+frost lynx 1
+wingspan mentor 1
+capture sphere 1
+frondland felidar 1
+narset of the ancient way 1
+clash of titans 1
+keruga the macrosage 1
+shark typhoon 1
+dismal backwater 1
+dead weight 1
+boot nipper 1
+flame spill 1
+dirge bat 1
+gemrazer 1
+dreamtail heron 1
+cloudpiercer 1
+swiftwater cliffs 1
+
+
+*** cluster 8 (count: 5 ave win 61.11) ***
+mountain 32
+swamp 29
+blood curdle 9
+frenzied raptor 6
+dead weight 5
+bloodfell caves 5
+evolving wilds 5
+blitz of the thunderraptor 5
+fire prophecy 4
+spelleater wolverine 4
+lurking deadeye 4
+durable coilbug 4
+pyroceratops 4
+forbidden friendship 4
+island 4
+plains 3
+whisper squad 3
+weaponize the monsters 3
+springjaw trap 2
+boot nipper 2
+drannith stinger 2
+call of the deathdweller 2
+flame spill 2
+clash of titans 2
+mutual destruction 2
+cathartic reunion 2
+memory leak 2
+easy prey 2
+farfinder 2
+bastion of remembrance 2
+blisterspit gremlin 2
+rumbling rockslide 2
+cloudpiercer 2
+lutri the spellchaser 1
+labyrinth raptor 1
+regal leosaur 1
+pacifism 1
+go for blood 1
+lavabrink venturer 1
+gloom pangolin 1
+frillscare mentor 1
+huntmaster liger 1
+bushmeat poacher 1
+blade banish 1
+dark bargain 1
+mythos of vadrok 1
+scoured barrens 1
+cunning nightbonder 1
+unlikely aid 1
+grimdancer 1
+ferocious tigorilla 1
+facet reader 1
+thieving otter 1
+slitherwisp 1
+mythos of nethroi 1
+boneyard lurker 1
+voracious greatshark 1
+adaptive shimmerer 1
+dismal backwater 1
+jungle hollow 1
+raking claws 1
+insatiable hemophage 1
+dirge bat 1
+proud wildbonder 1
+obosh the preypiercer 1
+blitz leech 1
+zagoth triome 1
+serrated scorpion 1
+nightsquad commando 1
+void beckoner 1
+
+
+*** cluster 9 (count: 1 ave win 66.67) ***
+island 5
+swamp 5
+whisper squad 3
+weaponize the monsters 2
+springjaw trap 2
+memory leak 2
+grimdancer 2
+prickly marmoset 2
+cloudpiercer 2
+mountain 2
+obosh the preypiercer 1
+dead weight 1
+serrated scorpion 1
+phase dolphin 1
+nightsquad commando 1
+suffocating fumes 1
+slitherwisp 1
+pouncing shoreshark 1
+frostveil ambush 1
+voracious greatshark 1
+swiftwater cliffs 1
+bloodfell caves 1
+indatha triome 1
+evolving wilds 1
+
+
+*** cluster 10 (count: 5 ave win 75.00) ***
+mountain 25
+plains 22
+island 10
+startling development 8
+drannith stinger 7
+zenith flare 7
+frostveil ambush 7
+evolving wilds 7
+snare tactician 5
+farfinder 5
+blade banish 5
+lava serpent 5
+spelleater wolverine 5
+drannith healer 4
+pacifism 4
+pyroceratops 4
+fire prophecy 4
+go for blood 3
+swiftwater cliffs 3
+windscarred crag 3
+imposing vantasaur 3
+prickly marmoset 3
+blisterspit gremlin 2
+hampering snare 2
+rielle the everwise 2
+memory leak 2
+raking claws 2
+rooting moloch 2
+coordinated charge 2
+savai sabertooth 2
+divine arrow 2
+rumbling rockslide 2
+tranquil cove 2
+valiant rescuer 2
+shredded sails 2
+ketria crystal 2
+essence scatter 1
+facet reader 1
+raugrin crystal 1
+unpredictable cyclone 1
+boon of the wishgiver 1
+fight as one 1
+regal leosaur 1
+zirda the dawnwaker 1
+clash of titans 1
+jegantha the wellspring 1
+forbidden friendship 1
+helica glider 1
+frillscare mentor 1
+flame spill 1
+vulpikeet 1
+footfall crater 1
+savai thundermane 1
+neutralize 1
+reptilian reflection 1
+narset of the ancient way 1
+checkpoint officer 1
+stormwild capridor 1
+cathartic reunion 1
+sanctuary smasher 1
+
+
+*** cluster 11 (count: 3 ave win 30.77) ***
+forest 17
+mountain 14
+swamp 7
+rumbling rockslide 5
+drannith stinger 3
+honey mammoth 3
+greater sandwurm 3
+rugged highlands 3
+cloudpiercer 3
+fire prophecy 2
+forbidden friendship 2
+mosscoat goriak 2
+farfinder 2
+porcuparrot 2
+umori the collector 2
+mythos of brokkos 2
+lava serpent 2
+back for more 2
+evolving wilds 2
+blisterspit gremlin 2
+plains 2
+windscarred crag 2
+almighty brushwagg 1
+essence symbiote 1
+easy prey 1
+excavation mole 1
+fertilid 1
+flame spill 1
+clash of titans 1
+bloodfell caves 1
+indatha triome 1
+mysterious egg 1
+humble naturalist 1
+pacifism 1
+raking claws 1
+prickly marmoset 1
+glowstone recluse 1
+alert heedbonder 1
+barrier breach 1
+frondland felidar 1
+lukka coppercoat outcast 1
+yidaro wandering monster 1
+dead weight 1
+mutual destruction 1
+labyrinth raptor 1
+fiend artisan 1
+heartless act 1
+go for blood 1
+hunted nightmare 1
+spelleater wolverine 1
+ketria crystal 1
+boneyard lurker 1
+cavern whisperer 1
+auspicious starrix 1
+jungle hollow 1
+raugrin triome 1
+
+
+*** cluster 12 (count: 1 ave win 50.00) ***
+mountain 6
+island 5
+glimmerbell 2
+spelleater wolverine 2
+farfinder 2
+rumbling rockslide 2
+plains 2
+essence scatter 1
+ominous seas 1
+cathartic reunion 1
+drannith stinger 1
+go for blood 1
+raking claws 1
+shredded sails 1
+frost lynx 1
+neutralize 1
+lore drakkis 1
+everquill phoenix 1
+mythos of vadrok 1
+narset of the ancient way 1
+rooting moloch 1
+clash of titans 1
+keruga the macrosage 1
+shark typhoon 1
+swiftwater cliffs 1
+zagoth triome 1
+
+
