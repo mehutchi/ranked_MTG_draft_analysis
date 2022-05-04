@@ -19,8 +19,6 @@ The input file follows the following format (csv) for each draft entry:
 
 ![image](https://user-images.githubusercontent.com/20996215/127382097-bab2dee5-7f4a-4082-8b3e-4c1bb63697f6.png)
 
-![image](https://github.com/mehutchi/ranked_MTG_draft_analysis/files/8627205/histogram_timeseries_452.pdf)
-
 The first line contains: 3-letter set code, number of wins, number of losses, colors, premier or not.
 
 Defining the colors of a given deck is definitely a judgement call and some decks are less straightforward than others. The pattern to follow, is to list included colors in alphabetical order where blue=u and is listed before "w" in this manner: b, g, r, u, w. Uppercase indicates a main color and lowercase indicates a splash color. Most of the analysis is centered around two-color pairs as that is historically the most prevalent outcome. There is opportunity for more targeted analysis of sets that deviate from this norm such as mono- or multicolored-focused enviroments. Immediately after the color entries, a single lowercase "p" indicates if the draft was "premier", drafted against humans as opposed to bots. A bot draft is assumed if "p" is left off.
@@ -33,6 +31,8 @@ Each individual draft is stored as a draft object with the attributes made up of
 One of the output files produced is a pdf where each row represents a draft set (gameplay variant, indicated with a 3-letter code) and where the left column is a histogram for that draft set with bins for the 10 possible outcomes (0-3 up to 7-0). Draft count and win rate by draft set is also posted in the left column in red font. The right column displays a time series of wins verses draft index (chronological order, not to scale). A linear trendline is also depicted with its corresponding equation in red for each time series. Given enough data points, the trendline can indicate the win rate trajectory of a given set (decreasing, neutral, or increasing).
 
 ![image](https://user-images.githubusercontent.com/20996215/127245189-b8ac76f9-adc3-40c6-a76c-16b24187c4e7.png)
+
+![histogram_timeseries_452](https://user-images.githubusercontent.com/20996215/166827326-9f87f1b6-0ef7-4772-aae7-369d1534077c.png)
 
 One interesting observation from the time series in this set is that the win rate for some of the high-volume draft sets has a noticeable slope. GRN and DOM (near the top of the above diagram) have a noticable postive trajectory where IKO (near the middle) has a negative trajectory. A major aspect of the drafts and the games themselves is a struggle between power and concistancy. Generally, due to the nature of the resource system, a player tends to play two out of the five possible colors. Sometimes one can increase the power level by "splashing" other colors, but without enough ways to compensate for the additional color requirements your win rate could suffer despite the theoretical increase in power by sacrificing concistancy. IKO was a set seeded with many cards to encourage "splashing" into more colors and it seems that over time the temptation to splash torpedoed the win rate. DOM was more straighforward and helped curb frequent extreme attempts at "splashing with its lack of enabling more colors per deck. GRN included many cards to enable splasing, but lacked many of the payoff incentive of IKO and was also unique in incentivizing just 5 two-color pairs instead of the typical 10.
 
