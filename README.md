@@ -54,7 +54,7 @@ Another note, is that cards with winshares lower than 50% of the maximum are exc
 
 The code creates many of these plots, but I review a handful of them here:
 
-[win_shares_AFR_common.pdf](https://github.com/mehutchi/ranked_MTG_draft_analysis/files/8635798/win_shares_AFR_common.pdf)
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/20996215/167018342-1ed8ced7-59c4-45fc-b4f0-a2941795b655.png">
 
 # Bird's-Eye View
 One of the output files produced is a pdf where each row represents a draft set (gameplay variant, indicated with a 3-letter code) and where the left column is a histogram for that draft set with bins for the 10 possible outcomes (0-3 up to 7-0). Draft count and win rate by draft set is also posted in the left column in red font. The right column displays a time series of wins verses draft index (chronological order, not to scale). A linear trendline is also depicted with its corresponding equation in red for each time series. Given enough data points, the trendline can indicate the win rate trajectory of a given set (decreasing, neutral, or increasing).
