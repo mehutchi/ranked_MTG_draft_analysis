@@ -84,7 +84,7 @@ In addition to winshares, I also wanted to see what clustering could tell me abo
 
 distance(A, B) = (|A| + |B|) - (A \Delta B) / (|A| + |B|)
 
-https://latex.codecogs.com/svg.image?distance(A,&space;B)&space;=&space;((|A|&space;&plus;&space;|B|)&space;-&space;(A&space;\Delta&space;B))&space;/&space;(|A|&space;&plus;&space;|B|)
+<img src="https://latex.codecogs.com/svg.image?distance(A,&space;B)&space;=&space;((|A|&space;&plus;&space;|B|)&space;-&space;(A&space;\Delta&space;B))&space;/&space;(|A|&space;&plus;&space;|B|)" />
 
 Where A and B are card lists (multisets). 
 
