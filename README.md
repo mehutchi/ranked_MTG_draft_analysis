@@ -86,7 +86,13 @@ In addition to winshares, I also wanted to see what clustering could tell me abo
 
 Where A and B are card lists (multisets, but with strings). Now drafts (card lists) can be clustered using this distance metric, drafts can be fairly dissimilar, but this metric identifies what small similarities two drafts might have. This kind of analysis demands a large number of data points in order to have meaning, so the code only performs clustering if a given set has at least 40 drafts. Four sets (DOM, GRN, IKO, RNA) fit this criteria. I ended up using complete linkage agglomerative hierarchical clustering with a threshold cutoff of 1.35. The following plots explore that choice:
 
+![method_comp](https://user-images.githubusercontent.com/20996215/167032629-e8904396-44d1-4a49-b07f-04f60ff15e8d.png)
 
+The code creates these one of these plots for each set, but I have put them together for easier observation here. The method selection involved some intuition. Most draft environments are designed with 5-10 archetypes in mind, with some hidden ones that pop up time to time. Complete linkage was chosen because it was more-selective in combining clusters, which was important here because we know how dissimilar they (draft decks) tend to be, especially without really vast amounts of data. The threshold was selected in a attempt to region of where the dendrograms stabilized for a bit. Dendrograms here:
+
+![dendrograms](https://user-images.githubusercontent.com/20996215/167033732-f26cfa79-5d45-4f3c-8b79-364756d22063.png)
+
+Here we can see that the 5 color-pair sets RNA and GRN converge to fewer clusters and DOM and IKO end up with more. 
 
 # Bird's-Eye View
 One of the output files produced is a pdf where each row represents a draft set (gameplay variant, indicated with a 3-letter code) and where the left column is a histogram for that draft set with bins for the 10 possible outcomes (0-3 up to 7-0). Draft count and win rate by draft set is also posted in the left column in red font. The right column displays a time series of wins verses draft index (chronological order, not to scale). A linear trendline is also depicted with its corresponding equation in red for each time series. Given enough data points, the trendline can indicate the win rate trajectory of a given set (decreasing, neutral, or increasing).
