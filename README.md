@@ -30,7 +30,7 @@ Each individual draft is stored as a draft object with the attributes made up of
 # Simple Win Shares
 One of the questions when it comes to drafting is how strong cards are. I attemped to measure this for this data set by creating a simple win-share formula to assign fractions of each win to the cards contained in each draft deck. The formula for a given card in a given MTG set is:
 
-win share = (wins/games)*copies/(40*drafts)
+win share = (wins/games)\*copies/(40\*drafts)
 
 where:
 wins = total wins
@@ -40,19 +40,21 @@ drafts = total drafts card was used in
 
 So if a card was used once as a single copy in a 3-3 draft. Its win share would be:
 
-win share = (3/6)*1/(40*1) = 0.0125
+win share = (3/6)\*1/(40\*1) = 0.0125
 
 Here it is assumed that each draft has 40 cards (you can draft more, but I stick to 40, no Yorion Companion for me yet). 
 
-The intent is to capture a sense of how much a card contributes to a winning draft, especially as the sample size increases. Some shortcomings include the fact that cards can be "carried" by a strong deck. This should correct given enough samples, but it is a concern for rares/mythics (which are not available as often) especially. The biggest shortcoming is the fact that this does not account for the card even being used in the games played. It is a common occurence to play a few games and never even draw certain cards in your deck. I do not have real-time data, but a card's "real" contribution should bear out with a large enough sample size. With enough drafts and enough games, if a card is truly damaging to your winrate it will be apparent.
+The intent is to capture a sense of how much a card contributes to a winning draft, especially as the sample size increases. Some shortcomings include the fact that cards can be "carried" to a good winshare when surrounded by a strong deck. This should correct given enough samples, but it is a concern for rares/mythics (which are not available as often) especially. The biggest shortcoming of this formula is the fact that this does not account for the card even being used in the games played. It is a common occurence to play a few games and never even draw certain cards in your deck. Some games end before you even see 15/40 cards in your deck. I do not have real-time data to account for "when drawn", but a card's "real" contribution/win share should bear out with a large enough sample size. With enough drafts and enough games, if a card is truly damaging to your winrate it will be apparent. More on this later.
 
-The code creates win shares plots for all cards, commons, and uncommons where win share scores are plotted against copies. So that cards in the upper right quadrant are preforming well with high usage. High win shares with low inclusions means that a card is being "carried", or that it is being underdrafted.
+The code creates win shares plots for all cards together, commons, and uncommons where win share scores are plotted against copies. So that cards in the upper right quadrant are preforming well with high usage. Any high-usage data points are the most valuable for declaring cards "good" or "bad" on average. High win shares with low inclusions either means that that card is being "carried", or that it is being underdrafted.
 
 Included on each plot is a reference line where wins/games is the drafter's average winrate for the set with increasing copies. For commons, the reference line uses drafts = copies^0.9 and uncommons use drafts = copies^0.95. This copies will always be at least equal to drafts and generally more over time, with commons appearing at a highest frequency. All in all, the reference line shows a very approximate average winshares for any given number of copies.
 
-Another note, is that cards with winshares lower than 50% of the maximum are excluded unless they have a number of copies above 1/2 the maximum copies (of a single card).
+Another note, is that cards with winshares lower than 50% of the maximum are excluded unless they have a number of copies above 1/2 the maximum copies (of a single card). This is for plot clarity, since low usage and low win shares cards get clustered together. These data points are less valuable because they have low sample sizes.
 
+The code creates many of these plots, but I review a handful of them here:
 
+[win_shares_AFR_common.pdf](https://github.com/mehutchi/ranked_MTG_draft_analysis/files/8635798/win_shares_AFR_common.pdf)
 
 # Bird's-Eye View
 One of the output files produced is a pdf where each row represents a draft set (gameplay variant, indicated with a 3-letter code) and where the left column is a histogram for that draft set with bins for the 10 possible outcomes (0-3 up to 7-0). Draft count and win rate by draft set is also posted in the left column in red font. The right column displays a time series of wins verses draft index (chronological order, not to scale). A linear trendline is also depicted with its corresponding equation in red for each time series. Given enough data points, the trendline can indicate the win rate trajectory of a given set (decreasing, neutral, or increasing).
