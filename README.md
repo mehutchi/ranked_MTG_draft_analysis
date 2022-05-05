@@ -27,20 +27,20 @@ Following the first descriptor line, the cards are listed, preceded by their cou
 
 Each individual draft is stored as a draft object with the attributes made up of the input information.
 
+Special thanks to https://mtgjson.com/ for their JSON which enabled me to analyze cards by color and rarity.
+
 # Simple Win Shares
 One of the questions when it comes to drafting is how strong cards are. I attemped to measure this for this data set by creating a simple win-share formula to assign fractions of each win to the cards contained in each draft deck. The formula for a given card in a given MTG set is:
 
 win share = (wins/games)\*copies/(40\*drafts)
 
-where:
-wins = total wins
-games = total games
-copies = every copy played across all drafts
-drafts = total drafts card was used in
+where: wins = total wins, games = total games, copies = every copy played across all drafts, drafts = total drafts card was used in
 
 So if a card was used once as a single copy in a 3-3 draft. Its win share would be:
 
 win share = (3/6)\*1/(40\*1) = 0.0125
+
+The win rate (wins/games) is scaled by how many copies appeared across all 40-card drafts it was used in.
 
 Here it is assumed that each draft has 40 cards (you can draft more, but I stick to 40, no Yorion Companion for me yet). 
 
@@ -55,6 +55,36 @@ Another note, is that cards with winshares lower than 50% of the maximum are exc
 The code creates many of these plots, but I review a handful of them here:
 
 <img width="680" alt="image" src="https://user-images.githubusercontent.com/20996215/167018342-1ed8ced7-59c4-45fc-b4f0-a2941795b655.png">
+
+Among AFR commons Sepulcher Ghoul and Vampire Spawn stand out with high usage and high winshares. This is concistent with popular draft stats website https://www.17lands.com/ where both of those cards are top 10 among AFR commons for GIH (games in hand) win rate. There are other high-usage standouts as well and notibly Fates Reversal which is uncertain because of its small sample size. Notably absent from this plot are any blue cards. Blue was notoriously weak in this set and red and black were considered strong by the drafting community at large and that seems to bear out in the winshares.
+
+I also made win share plots for basic lands, but had to include them on their own plots (they tend to have 6-10 copies per deck and dwarf the other cards with their inclusions/copies). These plots give an idea of the drafter's strength in certain colors:
+
+<img width="589" alt="image" src="https://user-images.githubusercontent.com/20996215/167020598-d466041c-dc1b-4186-ac88-7cd1db07ddfe.png">
+
+This is interesting because it appears that green was my strongest color and that I tended to do better with blue than white or red. This higher than expected win share for blue decks may be because I only "responsibly" drafted blue, which means that I avoided blue outside of when you lead off your draft with abnormally strong cards like Iymrith, Desert Doom which can carry weaker cards. Prelimiary inspection of plots indicates that this phenomenon shows up in other sets as well, where a weaker color is avoided unless you draft some high rarity super-cards.
+
+Here is the winshares plot for KHM:
+
+<img width="679" alt="image" src="https://user-images.githubusercontent.com/20996215/167023386-fa08d6c1-afdb-4387-b726-785e2b4433a2.png">
+
+Sarulf's Packmate and Struggle for Skemfar stand out here, with Berg Strider, Mistwalker, Shimmerdrift Vale, and Bound in Gold not far behind. 17lands also has Sarulf's Packmate as the #1 common with their GIH win rate metric. Interestingly Berg Strider and Struggle for Skemfar barely make it into their top 15 and Mistwalker and Bound in Gold into their their top 20.
+
+Any early debate early on in KHM's run was whether Sarulf's Packmate or Behold the Multiverse were the best commons. I played both about equally, but Sarulf's Packmate was much better on average (or at least was in better decks on average) than Behold the Multiverse, which hovered near my average preformance threshold. This is also concistent with 17lands rankings as well. Although they both provide similar card advantage in game, it's clear that Packmate being a decent-sized creature mattered a lot.
+
+A quick look at the basic lands information for KHM:
+
+<img width="581" alt="image" src="https://user-images.githubusercontent.com/20996215/167025162-ccd11646-79ce-486e-8947-83a7f3f2e479.png">
+
+Here we see another color-imbalanced format. The other data across almost all sets shows my tendancy to draft black, but even I could not solve it for this set. The other four colors were about the same, but black lagged behind here and the lower usage reflects me avoiding it. More on this phenomenon under Output File Review.
+
+# Clustering Analysis
+
+In addition to winshares, I also wanted to see what clustering could tell me about the drafts. The distance metric I chose for comparing two drafts (in the same set) involved symmetric distance to find a union. This was modified to work with python lists (instead of sets, in math these would be multisets) because I wanted to account for repeating elements. Basic lands were excluded from this metric (because they would dominate over the actual drafted cards with their large inclusion rates). The formula is:
+
+distance(A, B) = (|A| + |B|) - (A \Delta B) / (|A| + |B|)
+
+Where A and B are card lists (multisets). 
 
 # Bird's-Eye View
 One of the output files produced is a pdf where each row represents a draft set (gameplay variant, indicated with a 3-letter code) and where the left column is a histogram for that draft set with bins for the 10 possible outcomes (0-3 up to 7-0). Draft count and win rate by draft set is also posted in the left column in red font. The right column displays a time series of wins verses draft index (chronological order, not to scale). A linear trendline is also depicted with its corresponding equation in red for each time series. Given enough data points, the trendline can indicate the win rate trajectory of a given set (decreasing, neutral, or increasing).
@@ -172,6 +202,8 @@ outcomes by record: 7-1 has 7
 outcomes by record: 7-0 has 1
 
 It is important to recognize that we should not expect the bins of unified histogram to match these raw outcome counts. The outcomes do not have equal weights because of the difficulty of winning as opposed to losing. That being said, we can see that 6-3 and 7-2 both have 28 distinct outcomes. The relatively high outcome count for these two records helps explain the high bins we see in the unified histogram, but it does not explain the fact that the 7-2 bin is larger than the 6-3 bin. We would expect their bin heights to be inverted since the more win-dense outcomes of the 7-2 record should be harder to obtain. The only explanation I can think of is that there must be a pschological effect when sitting at 6 wins and shooting for the 7th win. Perhaps at that point, the player's play style subconciously shifts to a more aggressive (or a more conservative) tactic when on the cusp of maxing out the wins and obtaining the larger prize payout. 
+
+# Output File Overview
 
 In addition to the above plots, a detailed breakdown of each draft set is included in an output file. Below is sample output for one of the draft sets:
 
