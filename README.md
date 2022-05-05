@@ -82,11 +82,11 @@ Here we see another color-imbalanced format. The other data across almost all se
 
 In addition to winshares, I also wanted to see what clustering could tell me about the drafts. The distance metric I chose for comparing two drafts (in the same set) involved symmetric distance to find a union. This was modified to work with python lists (instead of sets, in math these would be multisets) because I wanted to account for repeating elements. Basic lands were excluded from this metric (because they would dominate over the actual drafted cards with their large inclusion rates). The formula is:
 
-distance(A, B) = (|A| + |B|) - (A \Delta B) / (|A| + |B|)
-
 <img src="https://latex.codecogs.com/svg.image?distance(A,&space;B)&space;=&space;((|A|&space;&plus;&space;|B|)&space;-&space;(A&space;\Delta&space;B))&space;/&space;(|A|&space;&plus;&space;|B|)" />
 
-Where A and B are card lists (multisets). 
+Where A and B are card lists (multisets, but with strings). Now drafts (card lists) can be clustered using this distance metric, drafts can be fairly dissimilar, but this metric identifies what small similarities two drafts might have. This kind of analysis demands a large number of data points in order to have meaning, so the code only performs clustering if a given set has at least 40 drafts. Four sets (DOM, GRN, IKO, RNA) fit this criteria. I ended up using complete linkage agglomerative hierarchical clustering with a threshold cutoff of 1.35. The following plots explore that choice:
+
+
 
 # Bird's-Eye View
 One of the output files produced is a pdf where each row represents a draft set (gameplay variant, indicated with a 3-letter code) and where the left column is a histogram for that draft set with bins for the 10 possible outcomes (0-3 up to 7-0). Draft count and win rate by draft set is also posted in the left column in red font. The right column displays a time series of wins verses draft index (chronological order, not to scale). A linear trendline is also depicted with its corresponding equation in red for each time series. Given enough data points, the trendline can indicate the win rate trajectory of a given set (decreasing, neutral, or increasing).
