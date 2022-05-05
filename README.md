@@ -92,7 +92,13 @@ The code creates these one of these plots for each set, but I have put them toge
 
 ![dendrograms](https://user-images.githubusercontent.com/20996215/167033732-f26cfa79-5d45-4f3c-8b79-364756d22063.png)
 
-Here we can see that the 5 color-pair sets RNA and GRN converge to fewer clusters and DOM and IKO end up with more. 
+Here we can see that the 5 color-pair sets RNA and GRN converge to fewer clusters and DOM and IKO end up with more. There might be a more optimal threshold choice, but this one has proved useful. Here are the (abbrievated) cluster contents for GRN:
+
+![Slide1](https://user-images.githubusercontent.com/20996215/167045485-57560545-1def-4019-a285-91fe0a3285f7.PNG)
+![Slide2](https://user-images.githubusercontent.com/20996215/167045493-1b12dd3b-f410-4bf2-b4af-df1fd2a0dee0.PNG)
+![Slide3](https://user-images.githubusercontent.com/20996215/167045501-10b42079-1d9c-468f-804e-02fbd9a63017.PNG)
+
+
 
 # Bird's-Eye View
 One of the output files produced is a pdf where each row represents a draft set (gameplay variant, indicated with a 3-letter code) and where the left column is a histogram for that draft set with bins for the 10 possible outcomes (0-3 up to 7-0). Draft count and win rate by draft set is also posted in the left column in red font. The right column displays a time series of wins verses draft index (chronological order, not to scale). A linear trendline is also depicted with its corresponding equation in red for each time series. Given enough data points, the trendline can indicate the win rate trajectory of a given set (decreasing, neutral, or increasing).
