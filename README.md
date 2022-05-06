@@ -1,7 +1,7 @@
 # ranked_MTG_draft_analysis
 
 # Overview 
-Homemade code that analyzes the results of best-of-one Magic the Gathering (MTG) Arena draft results to help reveal detailed win rate information and player tendencies. 
+Homemade code that analyzes the results of best-of-one Magic the Gathering (MTG) Arena draft results to help reveal best-performing cards by rarity, synergistic card combinations, and leading archetypes.
 
 # What is a draft? 
 A draft is a game mode where a circle of eight players each open a 15-card pack (so 120 total cards at the table), select one card from their pack, simultaneously pass the remaining 14 cards to their neighbor, then each make another pick, repeating the process of selecting and passing until the packs are depleted. This is repeated for two more packs (each) and players construct minimum 40-card decks from their selections to battle against other drafters. This code is designed for best-of-one drafts on the MTG Arena client, where a draft run completes once the player reaches either 7 wins or 3 losses, whichever occurs first. Matches are created according to current win rate and the players' ranks. Thus, players' win rates are pushed towards 50% because you encounter stronger and stronger opponents on average the more you win (given enough time to reach equilibrium). This document will follow the convention of listing (wins-losses) when stating records. Also, the pool of draftable cards (referred to as "draft sets" or "MTG sets") changes every few months allowing the opportunity to compare results within draft sets and also collectively.
