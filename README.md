@@ -80,7 +80,7 @@ Here we see another color-imbalanced format. The other data across almost all se
 
 # Clustering Analysis
 
-In addition to win shares, I also wanted to see what clustering could tell me about the drafts. The distance metric I chose for comparing two drafts (in the same set) involved symmetric distance to find a union. This was modified to work with python lists (instead of sets, in math these would be multisets) because I wanted to account for repeating elements. Basic lands were excluded from this metric (because they would dominate over the actual drafted cards with their large inclusion rates). The formula is:
+In addition to win shares, I also wanted to see what clustering could tell me about the drafts. The distance metric I chose for comparing two drafts (in the same set) involved symmetric difference to find a union. This was modified to work with python lists (instead of sets, in math these would be multisets) because I wanted to account for repeating elements. Basic lands were excluded from this metric (because they would dominate over the actual drafted cards with their large inclusion rates). The formula is:
 
 <img src="https://latex.codecogs.com/svg.image?distance(A,&space;B)&space;=&space;((|A|&space;&plus;&space;|B|)&space;-&space;(A&space;\Delta&space;B))&space;/&space;(|A|&space;&plus;&space;|B|)" />
 
